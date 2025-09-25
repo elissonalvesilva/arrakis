@@ -1,0 +1,93 @@
+# Binários para programas desenvolvidos em Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+
+# Arquivos de saída do go coverage
+*.out
+
+# Diretórios de dependências (vendor tree)
+/vendor/
+
+# Arquivos específicos do Go
+# Binários compilados
+main
+*.o
+*.a
+
+# Diretórios de build
+/bin/
+/pkg/
+/build/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+/logs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Cobertura de código
+/coverage.txt
+/coverage.html
+
+# Documentação gerada
+/docs/site/
+
+# Arquivos de profiling
+*.prof
+*.cpu
+*.mem
+
+# Air (live reload)
+tmp/
