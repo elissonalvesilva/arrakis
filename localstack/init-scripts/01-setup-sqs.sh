@@ -16,8 +16,7 @@ awslocal sqs create-queue \
 # High throughput queue for volume testing
 awslocal sqs create-queue \
     --queue-name arrakis-high-volume-queue \
-    --region us-east-1 \
-    --attributes VisibilityTimeoutSeconds=30,MessageRetentionPeriod=1209600
+    --region us-east-1
 
 # FIFO queue for ordered message testing
 awslocal sqs create-queue \
