@@ -22,7 +22,6 @@ main
 
 # Diretórios de build
 /bin/
-/pkg/
 /build/
 
 # Arquivos de ambiente
